@@ -1,0 +1,178 @@
+.header{
+  font-family: 'Ubuntu', sans-serif;       
+  font-size: 50px;
+  color:  #2F2835 ;
+  text-align: left;
+  width: 100%;
+  border-bottom:1.5px solid #272525;
+}
+.imgcontainer{
+  background-color: #86CC8E;
+  
+}
+#graph1:hover, #graph2:hover,#graph3:hover,#graph4:hover,#graph5:hover,#graph6:hover
+  {font-size: 110%;
+  color:#F9D6EA ;}
+
+.welcome {
+  float: right;
+  margin-right: 3%;
+  position: relative;
+  margin-top: 135px;
+}
+
+body{
+  background-color: #3C3543!important;   
+  font-family: 'Titillium Web', sans-serif !important;  
+  font-style: normal!important;
+  color: #F9D6EA!important;
+}
+
+.profinfo_wrap{
+  float:left;
+  text-align: left;
+  width:100%;
+  block-size:140px;
+  margin-top:30px;
+  margin-bottom: 0px;
+  height:70px;
+}
+
+.profile_info{
+  position: relative;
+        margin-left: -4%;
+        margin-top: -3%;
+}
+
+.btn2{
+  padding: 2px 2px;
+  width: 75px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  
+  background-color: #F9D6EA;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 3px rgb(28, 26, 36);
+}
+
+.btn2:hover {background-color: rgb(250, 181, 220)}
+
+.btn2:active {
+background-color: #86CC8E;
+box-shadow: 0 3px #666;
+transform: translateY(4px);
+}
+
+.btn1{
+padding: 2px 2px;
+width: 75px;
+font-size: 15px;
+text-align: center;
+cursor: pointer;
+outline: none;
+background-color: #F9D6EA;
+border: none;
+border-radius: 15px;
+box-shadow: 0 3px rgb(28, 26, 36);
+}
+    
+.btn1:hover {background-color: rgb(250, 181, 220)}
+    
+.btn1:active {
+background-color: #86CC8E;
+box-shadow: 0 3px #666;
+transform: translateY(4px);
+}
+
+#mapid {
+width: 100%;
+height: 400px;
+}
+
+.navigation{
+  width : 25%;
+  margin-left: -8%;
+  margin-top: -30px;
+  
+  float:left;
+  text-align: left;
+  height:100%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #3C3543;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  }
+
+
+.panel-body{
+  position: relative;
+  padding:5%;
+  float:right;
+  width: 80% ;
+  text-align: center;
+}
+
+.btn5{    
+        
+  border-radius: 4px;
+  background-color: #110F13;
+  border: none;
+  color: #86CC8E;
+  text-align:center;
+  font-size: 15px;
+  padding: 4%;
+  height: auto;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 2%;
+}
+
+.form2{
+  float:right;
+  width: 80% ;
+  text-align: center;
+}
+
+.btn6{    
+  margin: 2%;
+  border-radius: 4px;
+  background-color: #110F13;
+  border: none;
+  color: rgba(252, 24, 54, 0.555);
+  text-align:center;
+  font-size: 15px;
+  height: auto;
+  padding:4%;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #253827;
+  color: #F8D7EC;
+  text-align: center;
+}
